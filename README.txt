@@ -1,0 +1,4 @@
+
+This software uses hand gestures to control system volume. By tracking the distance between the thumb and index finger using a webcam, it adjusts the volume accordingly. Built with OpenCV, Mediapipe, and PyCaw, it offers a hands-free solution for volume control, with real-time feedback on the screen.
+
+To run the hand gesture-based volume control script in Visual Studio, ensure you have Visual Studio installed with Python support. You should also have Python 3.x installed on your system. For the best setup, create a virtual environment in Visual Studio’s terminal using python -m venv env and activate it. Install the necessary libraries such as OpenCV, MediaPipe, PyCaw, and Comtypes by running pip install opencv-python mediapipe pycaw comtypes. After setting up your environment, create a new Python project, paste the script into the main Python file, and press Ctrl + F5 to run the script. Ensure your webcam and system volume are correctly configured.
